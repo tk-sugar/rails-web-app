@@ -9,11 +9,8 @@ end
 gem 'rails', '~> 5.1.4'
 gem 'sqlite3'
 gem 'puma', '~> 3.7'
-# Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
-# Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
-# See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 gem 'coffee-rails', '~> 4.2'
@@ -23,10 +20,17 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem 'omniauth'
 gem 'omniauth-facebook'
-# Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 3.0'
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'omniauth-twitter'
+gem 'annotate'
+gem 'ransack'
+gem 'kaminari'
+gem 'carrierwave'
+gem 'fog'
+gem 'slim-rails'
+gem 'better_errors'
+gem 'activeadmin'
+gem 'bootstrap_form'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -37,6 +41,10 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'factory_girl_rails'
+  gem 'rubocop'
+  gem 'rspec-rails'
+  gem 'mailcatcher'
 end
 
 group :development do
