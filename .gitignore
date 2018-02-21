@@ -24,7 +24,8 @@ config/initializers/secret_token.rb
 # these should all be checked in to normalize the environment:
 # Gemfile.lock, .ruby-version, .ruby-gemset
 
-# Ignore pow environment settings
+# Ignore environment settings
+.env
 .powenv
 
 # Ignore Byebug command history file.

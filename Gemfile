@@ -27,9 +27,9 @@ gem 'kaminari'
 gem 'carrierwave'
 gem 'fog'
 gem 'slim-rails'
-gem 'better_errors'
 gem 'activeadmin'
 gem 'bootstrap_form'
+gem 'dotenv-rails'
 gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
@@ -41,10 +41,15 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
-  gem 'factory_girl_rails'
+  gem 'factory_bot_rails'
   gem 'rubocop'
   gem 'rspec-rails'
   gem 'mailcatcher'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'hirb'
+  gem 'hirb-unicode'
+  gem 'rack-mini-profiler'
 end
 
 group :development do
