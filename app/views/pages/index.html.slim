@@ -1,2 +1,6 @@
 h1 ようこそ
 p トップページです
+
+= form_for Photo.new, :multipart => true do |f|
+  = f.file_field :image
+  = f.submit "画像アップ"
