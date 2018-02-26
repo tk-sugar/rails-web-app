@@ -30,6 +30,8 @@ gem 'slim-rails'
 gem 'activeadmin'
 gem 'bootstrap_form'
 gem 'dotenv-rails'
+gem 'cancancan'
+gem 'rolify'
 gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
