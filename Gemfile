@@ -38,6 +38,7 @@ gem 'dotenv-rails'
 gem 'cancancan'
 gem 'rolify'
 gem 'bcrypt', '~> 3.1.7'
+gem 'dropzonejs-rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

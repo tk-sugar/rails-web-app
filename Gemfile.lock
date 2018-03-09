@@ -110,6 +110,8 @@ GEM
     dotenv-rails (2.2.1)
       dotenv (= 2.2.1)
       railties (>= 3.2, < 5.2)
+    dropzonejs-rails (0.8.2)
+      rails (> 3.1)
     erubi (1.7.0)
     excon (0.60.0)
     execjs (2.7.0)
@@ -538,6 +540,7 @@ DEPENDENCIES
   devise
   devise-i18n
   dotenv-rails
+  dropzonejs-rails
   factory_bot_rails
   fog
   hirb
