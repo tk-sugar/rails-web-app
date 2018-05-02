@@ -1,0 +1,2 @@
+module Fuga::HogesHelper
+end

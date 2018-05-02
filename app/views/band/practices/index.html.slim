@@ -1,0 +1,19 @@
+h1 Listing band_practices
+
+table
+  thead
+    tr
+      th
+      th
+      th
+
+  tbody
+    - @band_practices.each do |band_practice|
+      tr
+        td = link_to 'Show', band_practice
+        td = link_to 'Edit', edit_band_practice_path(band_practice)
+        td = link_to 'Destroy', band_practice, data: { confirm: 'Are you sure?' }, method: :delete
+
+br
+
+= link_to 'New Practice', new_band_practice_path

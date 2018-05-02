@@ -1,0 +1,19 @@
+h1 Listing fuga_hoges
+
+table
+  thead
+    tr
+      th
+      th
+      th
+
+  tbody
+    - @fuga_hoges.each do |fuga_hoge|
+      tr
+        td = link_to 'Show', fuga_hoge
+        td = link_to 'Edit', edit_fuga_hoge_path(fuga_hoge)
+        td = link_to 'Destroy', fuga_hoge, data: { confirm: 'Are you sure?' }, method: :delete
+
+br
+
+= link_to 'New Hoge', new_fuga_hoge_path

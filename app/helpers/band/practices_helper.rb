@@ -1,0 +1,2 @@
+module Band::PracticesHelper
+end

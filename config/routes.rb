@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  namespace :fuga do
+    resources :hoges
+  end
   devise_for :users, controllers: { :omniauth_callbacks => "omniauth_callbacks" }
   root 'pages#index'
 
